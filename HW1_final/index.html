@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/index.css" />
+    <script type="module" src="src/index.js"></script>
+    <title>Fake Stack Overflow</title>
+  </head>
+  <body>
+    <div id="header" class="header">
+      <div id="header-title-div">
+        <a id="header-title" href="/">Fake Stack Overflow</a>
+      </div>
+      <div id="header-search-div">
+        <input id="header-search" onkeyup="searchQuestion(event)" type="text" name="search" placeholder="Search..." />
+      </div>
+    </div>
+    <div id="nav-main-div">
+      <div id="nav" class="nav">
+        <button id="nav-questions" onclick="navQuestionClick()" class="nav-button">Questions</button>
+        <button id="nav-tags" onclick="navTagsClick()" class="nav-button">Tags</button>
+      </div>
+      <div id="main" class="main"></div>
+    </div>
+  </body>
+</html>

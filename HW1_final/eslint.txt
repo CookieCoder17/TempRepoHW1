@@ -1,0 +1,4 @@
+C:\Users\xiaojiefan\Desktop\hw1\cse316-hw1-adam-jason\src\index.js
+  338:5  error  'displayAnswers' is not defined  no-undef
+
+✖ 1 problem (1 error, 0 warnings)
